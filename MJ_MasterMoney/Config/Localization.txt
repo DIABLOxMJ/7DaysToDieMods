@@ -1,0 +1,16 @@
+Key,English,French
+
+mjItemDollars,"Dollars (1$)","Dollars (1$)"
+mjItemDollarsDesc,"The dollar is the main currency in this area.","Le dollar est la principale monnaie d’échange dans la région."
+
+mjItemDollarsCraftable,"Dollars Bundle (10.000$)","Paquet de dollars (10.000$)"
+mjItemDollarsCraftableDesc,"A bundle of dollars, perfectly rolled up to be stored as space efficient as possible.","Un paquet de dollars, parfaitement enroulé pour être stocké de la manière la plus efficace possible."
+
+mjItemMoneyCase,"Money Case","Caisse d'argent"
+mjItemMoneyCaseDesc,"A sturdy money case designed for storing large amounts of cash.","Une caisse à billets robuste conçu pour stocker de grandes quantités d'argent liquide."
+
+mjItemWallet,"Wallet","Portefeuille"
+mjItemWalletDesc,"A worn out wallet containing some cash.","Un portefeuille usé contenant de l'argent liquide."
+
+mjItemDollarsSchematics,"Counterfeit Money Schematic","Schéma de la fausse monnaie"
+mjItemDollarsSchematicsDesc,"This schematics unlocks:\nDollars","Ce schéma déverrouille :\nDollars"

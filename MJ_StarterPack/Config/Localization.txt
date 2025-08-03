@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French
+
+mjItemStarterPackLocked,blocks,Block,KgNone,Sealed Survivor Bag,Sac du Survivant fermée
+mjItemStarterPackLockedDesc,blocks,Block,This locked bag contains weapons,resources and clothing you been amassing for the end of the world.,Les ressources et les vêtements que vous avez accumulés pour la fin du monde.
+
+mjItemStarterPack,blocks,Block,KgNone,Survivor Bag,Sac du Survivant
+mjItemStarterPackDesc,blocks,Block,This locked bag contains weapons,resources and clothing you been amassing for the end of the world.,Les ressources et les vêtements que vous avez accumulés pour la fin du monde.

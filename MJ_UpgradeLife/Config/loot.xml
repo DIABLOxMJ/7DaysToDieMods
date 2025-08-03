@@ -1,0 +1,26 @@
+<DIABLOxMJ>
+	<!-- Change Storage Size in Vehicle -->
+	<set xpath="//lootcontainer[@name='vehicleBicycle']/@size">9,10</set> <!-- Default size 9,1 -->
+	<set xpath="//lootcontainer[@name='vehicle4x4Truck']/@size">9,10</set> <!-- Default size 9,9 -->
+	<set xpath="//lootcontainer[@name='vehicleMinibike']/@size">9,10</set> <!-- Default size 9,3 -->
+	<set xpath="//lootcontainer[@name='vehicleMotorcycle']/@size">9,10</set> <!-- Default size 9,4 -->
+	<set xpath="//lootcontainer[@name='vehicleGyrocopter']/@size">9,10</set> <!-- Default size 9,5 -->
+
+	<!-- Replace Water Cooler -->
+	<insertBefore xpath="/lootcontainers/lootcontainer[@name='waterCooler']">
+		<lootgroup name="groupBetterWaterCooler">
+			<item name="drinkJarRiverWater" count="1" loot_prob_template="medHigh"/>
+			<item name="drinkJarBoiledWater" count="1" loot_prob_template="med"/>
+			<item name="drinkJarPureMineralWater" count="1" loot_prob_template="medLow"/>
+		</lootgroup>
+	</insertBefore>
+	<!-- Remove Default Loot -->
+	<remove xpath="/lootcontainers/lootcontainer[@name='waterCooler']"/>
+	<!-- Add New Loot -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBetterWaterCooler']">
+		<lootcontainer name="waterCooler" count="1" size="6,2" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+			<item group="groupBetterWaterCooler" count="1"/>
+		</lootcontainer>
+	</insertAfter>
+
+</DIABLOxMJ>

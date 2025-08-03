@@ -1,0 +1,57 @@
+<DIABLOxMJ>
+    <set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'ammoGasCan')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[starts-with(@name, 'mjItem')]/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">60000</set>
+    <append xpath="/items/item[@name='gunHandgunT1PistolParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='gunBotRoboticsParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeToolAllSteelParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+    <append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
+        <property name="Stacknumber" value="60000"/>
+    </append>
+</DIABLOxMJ>

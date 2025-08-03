@@ -1,0 +1,4 @@
+<DIABLOxMJ>
+	<remove xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='DropInventoryBlock'][@value='cntBackpackDropped']"/>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">mjItemStarterPackLocked,noteDuke01</set>
+</DIABLOxMJ>

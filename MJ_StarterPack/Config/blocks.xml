@@ -1,0 +1,27 @@
+<DIABLOxMJ>
+	<append xpath="/blocks">
+		<!-- Start -->
+		<block name="mjItemStarterPackLocked">
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjItemStarterPackLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjItemStarterPack"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjItemStarterPack">
+			<property name="Extends" value="mjItemStarterPackLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjItemStarterPackDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjItemStarterPack"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Finish -->
+	</append>
+</DIABLOxMJ>

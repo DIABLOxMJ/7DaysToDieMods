@@ -1,0 +1,104 @@
+<DIABLOxMJ>
+	<set xpath="//item[@name='casinoCoin']/property[@name='SellableToTrader']/@value">True</set>
+	<set xpath="//item[@name='casinoCoin']/property[@name='EconomicValue']/@value">100</set>
+	<append xpath="/items">
+		<item name="disassembleDollarBundle">
+			<property name="Tags" value="dukes,dollars"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="ItemTypeIcon" value="computer"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DescriptionKey" value=""/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+			</property>
+		</item>
+		<item name="mjItemDollars">
+			<property name="Tags" value="dukes,dollars"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="UnlockedBy" value="mjItemDollarsSchematics"/>
+			<property name="Material" value="MresourceScrapIron"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="10000"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+		</item>
+		<item name="mjItemMoneyCase">
+			<property name="Tags" value="dukes,dollars"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleDollarBundle"/>
+			<property name="CustomIcon" value="mjItemMoneyCase"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="DescriptionKey" value="mjItemMoneyCaseDesc"/>
+			<property name="SoundPickup" value="cast_grab"/>
+			<property name="SoundPlace" value="cast_place"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjItemDollars"/>
+				<property name="Create_item_count" value="2500-7500"/>
+			</property>
+		</item>
+		<item name="mjItemWallet">
+			<property name="Tags" value="dukes,dollars"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleDollarBundle"/>
+			<property name="CustomIcon" value="mjItemWallet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="DescriptionKey" value="mjItemWalletDesc"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjItemDollars"/>
+				<property name="Create_item_count" value="200-750"/>
+			</property>
+		</item>
+		<item name="mjItemDollarsCraftable">
+			<property name="Tags" value="dukes,dollars"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleDollarBundle"/>
+			<property name="CustomIcon" value="mjItemDollarsBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="DescriptionKey" value="mjItemDollarsCraftableDesc"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjItemDollars"/>
+				<property name="Create_item_count" value="10000"/>
+			</property>
+		</item>
+		<item name="mjItemDollarsSchematics">
+			<property name="Tags" value="dukes,dollars,mjItemDollarsSchematics"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CustomIcon" value="mjItemDollars"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="DescriptionKey" value="mjItemDollarsSchematicsDesc"/>
+			<property name="Unlocks" value="$mjItemDollarsSchematics_helper"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="mjItemDollars" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$mjItemDollarsSchematics_helper" operation="set" value="1"/>
+			</effect_group>
+		</item>
+	</append>
+</DIABLOxMJ>

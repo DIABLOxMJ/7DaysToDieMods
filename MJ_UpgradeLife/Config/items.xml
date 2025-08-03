@@ -1,0 +1,475 @@
+<DIABLOxMJ>
+	<!-- Sell All -->
+	<append xpath="/items/item">
+		<property name="SellableToTrader" value="true"/>
+	</append>
+
+	<!-- Upgrade Honey -->
+	<set xpath="//item[starts-with(@name,'foodHoney')]/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">24</set> <!-- Default 8 -->
+	<set xpath="//item[starts-with(@name,'foodHoney')]/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">6</set> <!-- Default 3 -->
+	<set xpath="//item[starts-with(@name,'foodHoney')]/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']/@value">15</set> <!-- Default 5 -->
+	<set xpath="//item[starts-with(@name,'foodHoney')]/effect_group/display_value[@name='dCureInfection']/@value">.15</set> <!-- Default .05 -->
+
+    <!-- Upgrade Herbal Antibiotics -->
+    <set xpath="//item[starts-with(@name,'drugHerbalAntibiotics')]/effect_group/display_value[@name='dCureInfection']/@value">.25</set> <!-- Default .1 -->
+    <set xpath="//item[starts-with(@name,'drugHerbalAntibiotics')]/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']/@value">25</set> <!-- Default 10 -->
+
+    <!-- Upgrade Antibiotics -->
+    <set xpath="//item[starts-with(@name,'drugAntibiotics')]/effect_group/display_value[@name='dCureInfection']/@value">.75</set> <!-- Default .25 -->
+    <set xpath="//item[starts-with(@name,'drugAntibiotics')]/effect_group/triggered_effect[@cvar='$buffInfectionAddCurePerc']/@value">75</set> <!-- Default 25 -->
+
+	<!-- Upgrade Yucca Juice Smoothie -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/display_value[@name='dStaminaRegen']/@value">.35</set> <!-- Default .15 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">66</set> <!-- Default 22 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">33</set> <!-- Default 11 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">33</set> <!-- Default 11 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">78</set> <!-- Default 78 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/display_value[@name='dDuration']/@value">3600</set> <!-- Default 360 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$buffYuccaJuiceSmoothieDuration'][@operation='add']/@value">3600</set> <!-- Default 363 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect[@cvar='$buffYuccaJuiceSmoothieDuration'][@operation='set']/@value">27000</set> <!-- Default 2703 -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group/triggered_effect/requirement[@cvar='$buffYuccaJuiceSmoothieDuration'][@operation='GT']/@value">27000</set> <!-- Default 2703 -->
+
+	<!-- Upgrade Burnt Smoothie -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/display_value[@name='dRunSpeed']/@value">.30</set> <!-- Default .1 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/display_value[@name='dDuration']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$BurntHazardTimer'][@operation='add']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$BurntHazardTimer'][@operation='set']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect/requirement[@cvar='$BurntHazardTimer'][@operation='GT']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$buffBurntSmoothieRunDuration'][@operation='add']/@value">3000</set> <!-- Default 303 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect[@cvar='$buffBurntSmoothieRunDuration'][@operation='set']/@value">9000</set> <!-- Default 909 -->
+	<set xpath="/items/item[@name='foodBurntSmoothie']/effect_group/triggered_effect/requirement[@cvar='$buffBurntSmoothieRunDuration'][@operation='GT']/@value">9000</set> <!-- Default 909 -->
+
+	<!-- Upgrade Oasis Smoothie -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/display_value[@name='dRunSpeed']/@value">.25</set> <!-- Default .1 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/display_value[@name='dDuration']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$DesertHazardTimer'][@operation='add']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$DesertHazardTimer'][@operation='set']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect/requirement[@cvar='$DesertHazardTimer'][@operation='GT']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$buffOasisSmoothieRunDuration'][@operation='add']/@value">3000</set> <!-- Default 303 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect[@cvar='$buffOasisSmoothieRunDuration'][@operation='set']/@value">9000</set> <!-- Default 909 -->
+	<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group/triggered_effect/requirement[@cvar='$buffOasisSmoothieRunDuration'][@operation='GT']/@value">9000</set> <!-- Default 909 -->
+
+	<!-- Upgrade Frost Smoothie -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/display_value[@name='dRunSpeed']/@value">.20</set> <!-- Default .1 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/display_value[@name='dDuration']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$SnowHazardTimer'][@operation='add']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$SnowHazardTimer'][@operation='set']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect/requirement[@cvar='$SnowHazardTimer'][@operation='GT']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$buffFrostbiteSmoothieRunDuration'][@operation='add']/@value">3000</set> <!-- Default 303 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect[@cvar='$buffFrostbiteSmoothieRunDuration'][@operation='set']/@value">9000</set> <!-- Default 909 -->
+	<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group/triggered_effect/requirement[@cvar='$buffFrostbiteSmoothieRunDuration'][@operation='GT']/@value">9000</set> <!-- Default 909 -->
+
+	<!-- Upgrade Atomic Smoothie -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/display_value[@name='dRunSpeed']/@value">.15</set> <!-- Default .1 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='foodHealthFarmer']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set> <!-- Default 10 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/display_value[@name='dDuration']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$WastelandHazardTimer'][@operation='add']/@value">3000</set> <!-- Default 300 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$WastelandHazardTimer'][@operation='set']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect/requirement[@cvar='$WastelandHazardTimer'][@operation='GT']/@value">9000</set> <!-- Default 900 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$buffAtomicSmoothieRunDuration'][@operation='add']/@value">3000</set> <!-- Default 303 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect[@cvar='$buffAtomicSmoothieRunDuration'][@operation='set']/@value">9000</set> <!-- Default 909 -->
+	<set xpath="/items/item[@name='foodAtomicSmoothie']/effect_group/triggered_effect/requirement[@cvar='$buffAtomicSmoothieRunDuration'][@operation='GT']/@value">9000</set> <!-- Default 909 -->
+
+	<!-- Upgrade Tools -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Delay']/@value">.24</set> <!-- Default .64 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/property[@class='Action1']/property[@name='Repair_amount']/@value">1000</set> <!-- Default 100 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='AttacksPerMinute']/@value">150</set> <!-- Default 105 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='StaminaLoss']/@value">.8</set> <!-- Default 8 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/passive_effect[@name='DegradationMax']/@value">2500,5000</set> <!-- Default 250,500 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0StoneAxe']/effect_group[@name='meleeToolRepairT0StoneAxe']/display_value[@name='dBlockRepairAmount']/@value">1000</set> <!-- Default 100 -->	
+	
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group[@name='meleeToolRepairT0TazasStoneAxe']/passive_effect[@name='AttacksPerMinute']/@value">150</set> <!-- Default 105 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group[@name='meleeToolRepairT0TazasStoneAxe']/passive_effect[@name='StaminaLoss']/@value">.9</set> <!-- Default 9 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group[@name='meleeToolRepairT0TazasStoneAxe']/passive_effect[@name='DegradationMax']/@value">3000,6750</set> <!-- Default 300,675 -->
+	<set xpath="/items/item[@name='meleeToolRepairT0TazasStoneAxe']/effect_group[@name='meleeToolRepairT0TazasStoneAxe']/display_value[@name='dBlockRepairAmount']/@value">1000</set> <!-- Default 100 -->	
+	
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Delay']/@value">.24</set> <!-- Default .64 -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Repair_amount']/@value">4000</set> <!-- Default 400 -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']/passive_effect[@name='AttacksPerMinute']/@value">160</set> <!-- Default 70 -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']/passive_effect[@name='StaminaLoss']/@value">1.7</set> <!-- Default 17.1 -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']/passive_effect[@name='DegradationMax']/@value">3000,10000</set> <!-- Default 300,1000 -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']/display_value[@name='dBlockRepairAmount']/@value">4000</set> <!-- Default 400 -->	
+	
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">.18</set> <!-- Default .5 -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Repair_amount']/@value">7500</set> <!-- Default 1000 -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group[@name='meleeToolRepairT3Nailgun']/passive_effect[@name='RoundsPerMinute']/@value">420</set> <!-- Default 257 -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group[@name='meleeToolRepairT3Nailgun']/passive_effect[@name='DegradationMax']/@value">7500,15000</set> <!-- Default 1000,2000 -->
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/effect_group[@name='meleeToolRepairT3Nailgun']/display_value[@name='dBlockRepairAmount']/@value">7500</set> <!-- Default 1000 -->
+
+	<set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='AttacksPerMinute']/@value">75</set> <!-- Default 50 -->
+	<set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='StaminaLoss']/@value">1.6</set> <!-- Default 16.5 -->
+	<set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='DegradationMax']/@value">900,2000</set> <!-- Default 200,700-->
+	<set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='BlockDamage' and (@operation='base_set')]/@value">390</set> <!-- Default 39 -->
+	
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='AttacksPerMinute']/@value">75</set> <!-- Default 50 -->
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='StaminaLoss']/@value">1.8</set> <!-- Default 18 -->
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='DegradationMax']/@value">7000,14500</set> <!-- Default 700,1450-->
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='BlockDamage' and (@operation='base_set')]/@value">700</set> <!-- Default 70 -->
+	
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='AttacksPerMinute']/@value">75</set> <!-- Default 50 -->
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='StaminaLoss']/@value">2</set> <!-- Default 20 -->
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='DegradationMax']/@value">14500,24500</set> <!-- Default 1450,2450-->
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='BlockDamage' and (@operation='base_set')]/@value">1110</set> <!-- Default 110 -->
+
+	<!-- Upgrade Explosives -->
+	<append xpath="//item[@name='gunExplosivesT3RocketLauncher']/property[@name='Tags']/@value">,RPG7v2</append>
+	<set xpath="//item[@name='ammoRocketHE']">
+		<property name="Tags" value="ammo,perkDemolitionsExpert,RPG7v2"/>
+		<property name="DisplayType" value="ammoLauncher"/>
+		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketPrefab.prefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mlead_scrap"/>
+		<property name="Stacknumber" value="20"/>
+		<property name="EconomicValue" value="250"/>
+		<property name="TraderStageTemplate" value="ammoTier2"/>
+		<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
+		<property name="UnlockedBy" value="craftingExplosives"/>
+		<property name="SoundPickup" value="rocket_grab"/>
+		<property name="SoundPlace" value="rocket_place"/>
+		<property class="Action1">
+			<property name="Class" value="Projectile"/>
+			<property name="Explosion.BlockDamage" value="2500"/> <!-- Default 2500 -->
+			<property name="Explosion.EntityDamage" value="3500"/> <!-- Default 420 -->
+			<property name="Explosion.ParticleIndex" value="5"/> <!-- Default 5 -->
+			<property name="Explosion.RadiusBlocks" value="10"/> <!-- Default 5 -->
+			<property name="Explosion.RadiusEntities" value="6"/> <!-- Default 4 -->
+			<property name="Explosion.DamageBonus.water" value="0"/> <!-- Default 0 -->
+			<property name="Explosion.DamageBonus.stone" value="1"/> <!-- Default 0 -->
+			<property name="Explosion.DamageBonus.metal" value="1"/> <!-- Default 0 -->
+			<property name="Explosion.DamageBonus.earth" value="1"/> <!-- Default 0 -->
+			<property name="Explosion.DamageBonus.wood" value="1"/> <!-- Default 0 -->
+			<property name="Explosion.BlastPower" value="150"/> <!-- Default 0 -->
+			<property name="Gravity" value="-1"/> <!-- Default -3 -->
+			<property name="FlyTime" value="1"/> <!-- Default .8 -->
+			<property name="LifeTime" value="1000"/> <!-- Default 7 -->
+			<property name="DeadTime" value="4"/> <!-- Default 4 -->
+		</property>
+		<effect_group name="ammoRocketHE" tiered="false">
+			<passive_effect name="BlockDamage" operation="base_set" value="500"/> <!-- Default 100 -->
+			<passive_effect name="EntityDamage" operation="base_set" value="1000"/> <!-- Default 20 -->
+			<passive_effect name="ProjectileVelocity" operation="base_set" value="60" tags="perkDemolitionsExpert"/> <!-- Default 30 -->
+			<display_value name="dExRadius" value="10"/> <!-- Default 5 -->
+			<display_value name="dExBlockDamage" value="5000"/> <!-- Default 2500 -->
+			<display_value name="dExEntityDamage" value="500"/> <!-- Default 420 -->
+		</effect_group>
+	</set>
+	<set xpath="//item[@name='ammoRocketFrag']">
+		<property name="Extends" value="ammoRocketHE"/>
+		<property name="TraderStageTemplate" value="ammoTier2"/>
+		<property class="Action1">
+			<property name="Explosion.BlockDamage" value="1"/> <!-- Default 10 -->
+			<property name="Explosion.EntityDamage" value="1500"/> <!-- Default 730 -->
+			<property name="Explosion.RadiusBlocks" value="1"/> <!-- Default 3 -->
+			<property name="Explosion.RadiusEntities" value="10"/> <!-- Default 6 -->
+			<property name="Explosion.DamageBonus.stone" value="0"/> <!-- Default .1 -->
+			<property name="Explosion.DamageBonus.metal" value="0"/> <!-- Default .05 -->
+			<property name="Explosion.DamageBonus.earth" value="0"/> <!-- Default 0 -->
+			<property name="Explosion.DamageBonus.wood" value="0"/> <!-- Default .5 -->
+			<property name="Explosion.DamageBonus.water" value="0"/> <!-- Default 0 -->
+			<property name="Explosion.BlastPower" value="150"/> <!-- Default 0 -->
+		</property>
+		<effect_group name="ammoRocketFrag" tiered="false">
+			<passive_effect name="BlockDamage" operation="base_set" value="1"/> <!-- Default 10 -->
+			<passive_effect name="EntityDamage" operation="base_set" value="3000"/> <!-- Default 30 -->
+			<passive_effect name="ProjectileVelocity" operation="base_set" value="60" tags="perkDemolitionsExpert"/> <!-- Default 30 -->
+			<display_value name="dExRadius" value="10"/> <!-- Default 6 -->
+			<display_value name="dExBlockDamage" value="1"/> <!-- Default 10 -->
+			<display_value name="dExEntityDamage" value="1500"/> <!-- Default 730 -->
+		</effect_group>
+	</set>
+	<set xpath="//item[@name='thrownTimedCharge']">
+		<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill,perkGreatHeistSafes"/>
+		<property name="ItemTypeIcon" value="explosion"/>
+		<property name="DisplayType" value="ammoGrenadeTimedCharge"/>
+		<property name="Class" value="ItemClassTimeBomb"/>
+		<property name="DescriptionKey" value="thrownTimedChargeBWDesc"/>
+		<property name="HoldType" value="62"/>
+		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/TimedCharge/timedChargePrefab.prefab"/>
+		<property name="ActivationTransformToHide" value="Armed"/>
+		<property name="DropScale" value="1.8"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="EconomicValue" value="300"/>
+		<property name="TraderStageTemplate" value="baseTier2"/>
+		<property name="Weight" value="0"/>
+		<property name="Explosion.BlockDamage" value="15000"/> <!-- Default 110 -->
+		<property name="Explosion.EntityDamage" value="7500"/> <!-- Default 800 -->
+		<property name="Explosion.DamageBonus.tags" value="38"/> <!-- Default 38 -->
+		<property name="Explosion.ParticleIndex" value="5"/> <!-- Default 21 -->
+		<property name="Explosion.RadiusBlocks" value="20"/> <!-- Default .65 -->
+		<property name="Explosion.RadiusEntities" value="20"/> <!-- Default 1.2 -->
+		<property name="Explosion.DamageBonus.stone" value="1"/> <!-- Default 1 -->
+		<property name="Explosion.DamageBonus.metal" value="1"/> <!-- Default 1 -->
+		<property name="Explosion.DamageBonus.earth" value="1"/> <!-- Default 1 -->
+		<property name="Explosion.DamageBonus.wood" value="1"/> <!-- Default 1 -->
+		<property name="Explosion.DamageBonus.water" value="0"/> <!-- Default 0 -->
+		<property name="Explosion.BlastPower" value="150"/> <!-- Default 75 -->
+		<property name="FusePrimeOnActivate" value="true"/>
+		<property name="FuseTime" value="6"/> <!-- Default 4 (max: 6) -->
+		<property name="StickPercent" value="1"/>
+		<property name="UnlockedBy" value="craftingExplosives"/>
+		<property name="Group" value="Ammo/Weapons,Ammo"/>
+		<property name="SoundUnholster" value="charge_unholster"/>
+		<property name="SoundStick" value="charge_stick"/>
+		<property name="SoundTick" value="charge_beep,.8"/>
+		<property name="SoundPickup" value="timedcharge_grab"/>
+		<property name="SoundPlace" value="timedcharge_place"/>
+		<property class="Action0">
+			<property name="Class" value="ThrowAway"/>
+			<property name="Delay" value="1.2"/> <!-- Default 10 -->
+			<property name="Throw_strength_default" value="15"/> <!-- Default 15 -->
+			<property name="Throw_strength_max" value="30"/>
+			<property name="Max_strain_time" value="1.25"/> <!-- Default 0 -->
+			<property name="Sound_start" value="charge_throw"/>
+			<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger"/>
+			<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger"/>
+			<property name="triggerEffectShootDualsense" value="ShotgunShoot"/>
+			<property name="triggerEffectShootXbox" value="PistolShoot"/>
+		</property>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Activate"/>
+			<property name="Delay" value="1"/>
+			<!-- obsolete if rounds per minute exists -->
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+		</property>
+		<property name="ThrowableDecoy" value="true"/>
+		<effect_group tiered="false">
+			<display_value name="dExRadius" value="20"/> <!-- Default 1 -->
+			<display_value name="dExBlockDamage" value="3000"/> <!-- Default 3000 -->
+			<display_value name="dExEntityDamage" value="700"/> <!-- Default 800 -->
+			<display_value name="dFuseTime" value="6"/> <!-- Default 4 -->
+		</effect_group>
+	</set>
+	<set xpath="//item[@name='thrownDynamite']">
+		<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill"/>
+		<property name="ItemTypeIcon" value="explosion"/>
+		<property name="DisplayType" value="ammoGrenade"/>
+		<property name="Class" value="ItemClassTimeBomb"/>
+		<property name="DescriptionKey" value="thrownDynamiteBWDesc"/>
+		<property name="HoldType" value="66"/>
+		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab"/>
+		<property name="DropScale" value="2.5"/>
+		<property name="Material" value="MDynamite"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="EconomicValue" value="100"/>
+		<property name="TraderStageTemplate" value="baseTier2"/>
+		<property name="Weight" value="0"/>
+		<property name="ActivationTransformToHide" value="Sparks"/>
+		<property name="Explosion.BlockDamage" value="3000"/> <!-- Default 3000 -->
+		<property name="Explosion.EntityDamage" value="700"/> <!-- Default 550 -->
+		<property name="Explosion.ParticleIndex" value="22"/> <!-- Default 22 -->
+		<property name="Explosion.RadiusBlocks" value="7"/> <!-- Default 5 -->
+		<property name="Explosion.RadiusEntities" value="7"/> <!-- Default 6 -->
+		<property name="Explosion.DamageBonus.stone" value="1"/> <!-- Default 0 -->
+		<property name="Explosion.DamageBonus.metal" value="1"/> <!-- Default 0 -->
+		<property name="Explosion.DamageBonus.earth" value="1"/> <!-- Default 0 -->
+		<property name="Explosion.DamageBonus.wood" value="1"/> <!-- Default 0 -->
+		<property name="Explosion.DamageBonus.water" value="0"/> <!-- Default 0 -->
+		<property name="Explosion.BlastPower" value="150"/> <!-- Default 0 -->
+		<property name="FuseTime" value="6"/> <!-- Default 4 (max: 6) -->
+		<property name="StickPercent" value=".2"/> <!-- Default .2 -->
+		<property name="UnlockedBy" value="craftingExplosives"/>
+		<property name="Group" value="Ammo/Weapons,Ammo"/>
+		<property name="SoundPickup" value="dynamite_grab"/>
+		<property name="SoundPlace" value="dynamite_place"/>
+		<property class="Action0">
+			<property name="Class" value="ThrowAway"/>
+			<property name="Delay" value="1.2"/> <!-- Default 1.2 -->
+			<property name="Throw_strength_default" value="15"/> <!-- Default 6 -->
+			<property name="Throw_strength_max" value="40"/> <!-- Default 28 -->
+			<property name="Max_strain_time" value="1.25"/> <!-- Default 1.25 -->
+			<property name="Sound_start" value="swoosh"/>
+			<property name="triggerEffectTriggerPullDualsense" value="RifleTrigger"/>
+			<property name="triggerEffectTriggerPullXbox" value="PistolTrigger"/>
+			<property name="triggerEffectTriggerShootDualsense" value="MGShoot"/>
+			<property name="triggerEffectTriggerShootXbox" value="PistolShoot"/>
+		</property>
+		<property class="Action1"> <!-- UseAction -->
+			<property name="Class" value="Activate"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+			<property name="Delay" value="1"/>
+		</property>
+		<property name="ThrowableDecoy" value="true"/>
+		<effect_group tiered="false">
+			<display_value name="dExRadius" value="7"/> <!-- Default 1.5 -->
+			<display_value name="dExBlockDamage" value="6000"/> <!-- Default 3000 -->
+			<display_value name="dExEntityDamage" value="700"/> <!-- Default 550 -->
+			<display_value name="dFuseTime" value="6"/> <!-- Default 4 -->
+			<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem"/>
+		</effect_group>
+	</set>
+	<set xpath="//item[@name='thrownGrenadeContact']">
+		<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill"/>
+		<property name="ItemTypeIcon" value="explosion"/>
+		<property name="TintColor" value="191,37,13"/>
+		<property name="DisplayType" value="ammoGrenadeContact"/>
+		<property name="Class" value="ItemClassTimeBomb"/>
+		<property name="HoldType" value="57"/>
+		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
+		<property name="DropScale" value="2.5"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="25"/>
+		<property name="EconomicValue" value="75"/>
+		<property name="TraderStageTemplate" value="baseTier2"/>
+		<property name="Weight" value="0"/>
+		<property name="Explosion.BlockDamage" value="1"/> <!-- Default 10 -->
+		<property name="Explosion.EntityDamage" value="500"/> <!-- Default 341 -->
+		<property name="Explosion.ParticleIndex" value="13"/> <!-- Default 13 -->
+		<property name="Explosion.RadiusBlocks" value="1"/> <!-- Default 4 -->
+		<property name="Explosion.RadiusEntities" value="5"/> <!-- Default 5 -->
+		<property name="Explosion.BlastPower" value="75"/> <!-- Default 75 -->
+		<property name="FuseTime" value="6"/> <!-- Default 6 (max: 6) -->
+		<property name="FusePrimeOnActivate" value="true"/>
+		<property name="ExplodeOnHit" value="true"/>
+		<property name="StickPercent" value=".5"/> <!-- Default .5 -->
+		<property name="UnlockedBy" value="craftingExplosives"/>
+		<property name="Group" value="Ammo/Weapons,Ammo"/>
+		<property name="SoundUnholster" value="grenade_unholster"/>
+		<property name="SoundPickup" value="grenade_grab"/>
+		<property name="SoundPlace" value="grenade_place"/>
+		<property class="Action0">
+			<property name="Class" value="ThrowAway"/>
+			<property name="Delay" value="1.2"/> <!-- Default 1.2 -->
+			<property name="Throw_strength_default" value="15"/> <!-- Default 8 -->
+			<property name="Throw_strength_max" value="50"/> <!-- Default 50 -->
+			<property name="Max_strain_time" value="1.25"/> <!-- Default 1.25 -->
+			<property name="Sound_start" value="grenade_throw"/>
+			<property name="Gravity" value="-5"/> <!-- Default -5 -->
+			<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger"/>
+			<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger"/>
+			<property name="triggerEffectShootDualsense" value="ShotgunShoot"/>
+			<property name="triggerEffectShootXbox" value="PistolShoot"/>
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Activate"/>
+			<property name="Delay" value="1"/>
+			<property name="Sound_start" value="grenade_pullpin"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+		</property>
+		<property name="ThrowableDecoy" value="true"/>
+		<effect_group tiered="false">
+			<display_value name="dExRadius" value="5"/> <!-- Default 2.5 -->
+			<display_value name="dExBlockDamage" value="1"/> <!-- Default 10 -->
+			<display_value name="dExEntityDamage" value="500"/> <!-- Default 341 -->
+		</effect_group>
+	</set>
+	<set xpath="//item[@name='thrownGrenade']">
+		<property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit"/>
+		<property name="TintColor" value="59,62,55"/>
+		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab"/>
+		<property name="UnlockedBy" value="craftingExplosives"/>
+		<property name="DisplayType" value="ammoGrenade"/>
+		<property name="Explosion.BlockDamage" value="1"/> <!-- Default 10 -->
+		<property name="Explosion.EntityDamage" value="400"/> <!-- Default 341 -->
+		<property name="FuseTime" value="2"/> <!-- Default 3 (max: 6) -->
+		<property name="StickPercent" value=".3"/> <!-- Default .3 -->
+		<effect_group tiered="false">
+			<display_value name="dExRadius" value="5"/> <!-- Default 1.5 -->
+			<display_value name="dExBlockDamage" value="1"/> <!-- Default 10 -->
+			<display_value name="dExEntityDamage" value="400"/> <!-- Default 341 -->
+			<display_value name="dFuseTime" value="2"/> <!-- Default 3 -->
+		</effect_group>
+		<property class="Action1">
+			<property name="Class" value="Activate"/>
+			<property name="Delay" value="1"/>
+			<property name="Sound_start" value="grenade_pullpin"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+		</property>
+	</set>
+	<set xpath="//item[@name='thrownAmmoPipeBomb']">
+		<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill"/>
+		<property name="ItemTypeIcon" value="explosion"/>
+		<property name="DisplayType" value="ammoGrenade"/>
+		<property name="Class" value="ItemClassTimeBomb"/>
+		<property name="HoldType" value="25"/>
+		<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
+		<property name="DropScale" value="2.5"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="TraderStageTemplate" value="baseTier1"/>
+		<property name="Weight" value="0"/>
+		<property name="Explosion.BlockDamage" value="1"/> <!-- Default 5 -->
+		<property name="Explosion.EntityDamage" value="275"/> <!-- Default 253 -->
+		<property name="Explosion.ParticleIndex" value="20"/> <!-- Default 20 -->
+		<property name="Explosion.RadiusBlocks" value="1"/> <!-- Default 4 -->
+		<property name="Explosion.RadiusEntities" value="4"/> <!-- Default 4 -->
+		<property name="Explosion.BlastPower" value="50"/>  <!-- Default 75 -->
+		<property name="FuseTime" value="4"/> <!-- Default 4 (max: 6) -->
+		<property name="StickPercent" value=".4"/> <!-- Default .4 -->
+		<property name="UnlockedBy" value="craftingExplosives"/>
+		<property name="Group" value="Ammo/Weapons,Ammo"/>
+		<property name="ActivationTransformToHide" value="Sparks"/>
+		<property name="SoundPickup" value="pipebomb_grab"/>
+		<property name="SoundPlace" value="pipebomb_place"/>
+		<property class="Action0">
+			<property name="Class" value="ThrowAway"/>
+			<property name="Delay" value="1.2"/> <!-- Default 1.2 -->
+			<property name="Throw_strength_default" value="15"/> <!-- Default 8 -->
+			<property name="Throw_strength_max" value="50"/> <!-- Default 50 -->
+			<property name="Max_strain_time" value="1.25"/> <!-- Default 1.25 -->
+			<property name="Sound_start" value="swoosh"/>
+			<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger"/>
+			<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger"/>
+			<property name="triggerEffectShootDualsense" value="ShotgunShoot"/>
+			<property name="triggerEffectShootXbox" value="PistolShoot"/>
+		</property>
+		<property class="Action1"> <!-- UseAction -->
+			<property name="Class" value="Activate"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+			<property name="Delay" value="1"/>
+		</property>
+		<property name="ThrowableDecoy" value="true"/>
+		<effect_group tiered="false">
+			<display_value name="dExRadius" value="4"/> <!-- Default 1.5 -->
+			<display_value name="dExBlockDamage" value="1"/> <!-- Default 5 -->
+			<display_value name="dExEntityDamage" value="300"/> <!-- Default 253 -->
+			<display_value name="dFuseTime" value="4"/> <!-- Default 4 -->
+			<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem"/>
+		</effect_group>
+	</set>
+	<set xpath="//item[@name='ammoArrowExploding']/property[@class='Action1']">
+		<property name="Gravity" value="-3"/> <!-- Default -5 -->
+		<property name="Explosion.BlockDamage" value="1"/> <!-- Default 80 -->
+		<property name="Explosion.EntityDamage" value="250"/> <!-- Default 180 -->
+		<property name="Explosion.ParticleIndex" value="11"/> <!-- Default 11 -->
+		<property name="Explosion.RadiusBlocks" value="1"/> <!-- Default 3 -->
+		<property name="Explosion.RadiusEntities" value="5"/> <!-- Default 4 -->
+		<property name="Explosion.DamageBonus.stone" value="0"/> <!-- Default .3 -->
+		<property name="Explosion.DamageBonus.metal" value="0"/> <!-- Default .1 -->
+		<property name="Explosion.DamageBonus.earth" value="0"/> <!-- Default 0 -->
+		<property name="Explosion.DamageBonus.wood" value="0"/> <!-- Default .5 -->
+		<property name="Explosion.DamageBonus.water" value="0"/> <!-- Default 0 -->
+	</set>
+	<set xpath="//item[@name='ammoCrossbowBoltExploding']/property[@class='Action1']">
+		<property name="Gravity" value="-3"/> <!-- Default -5 -->
+		<property name="Explosion.BlockDamage" value="1"/> <!-- Default 60 -->
+		<property name="Explosion.EntityDamage" value="250"/> <!-- Default 180 -->
+		<property name="Explosion.ParticleIndex" value="11"/> <!-- Default 11 -->
+		<property name="Explosion.RadiusBlocks" value="1"/> <!-- Default 3 -->
+		<property name="Explosion.RadiusEntities" value="5"/> <!-- Default 4 -->
+		<property name="Explosion.DamageBonus.stone" value="0"/> <!-- Default .3 -->
+		<property name="Explosion.DamageBonus.metal" value="0"/> <!-- Default .1 -->
+		<property name="Explosion.DamageBonus.earth" value="0"/> <!-- Default 0 -->
+		<property name="Explosion.DamageBonus.wood" value="0"/> <!-- Default .5 -->
+		<property name="Explosion.DamageBonus.water" value="0"/> <!-- Default 0 -->
+	</set>
+</DIABLOxMJ>
