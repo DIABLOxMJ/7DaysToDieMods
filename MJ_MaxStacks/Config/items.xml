@@ -11,6 +11,7 @@
     <set xpath="/items/item[starts-with(@name, 'mjItem')]/property[@name='Stacknumber']/@value">60000</set>
     <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">60000</set>
     <set xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber']/@value">60000</set>
+    <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">60000</set>
     <set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">60000</set>
     <append xpath="/items/item[@name='gunHandgunT1PistolParts']">
         <property name="Stacknumber" value="60000"/>

@@ -1,0 +1,115 @@
+<DIABLOxMJ>
+	<!-- Test -->
+	<set xpath="//quest[@id='test_sleepers']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_sleepers']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_sleepers_infested']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_sleepers_infested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_fetchsleep']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_fetchsleep']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_fetchinfested']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_fetchinfested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_hiddensleep']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_hiddensleep']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_restorepower']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_restorepower']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='test_turnin2']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='test_turnin2']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Reward -->
+	<set xpath="//quest[@id='quest_tier1complete']/reward[@type='Item' and @id='casinoCoin']/@value">150</set>
+	<set xpath="//quest[@id='quest_tier2complete']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='quest_tier3complete']/reward[@type='Item' and @id='casinoCoin']/@value">400</set>
+	<set xpath="//quest[@id='quest_tier4complete']/reward[@type='Item' and @id='casinoCoin']/@value">600</set>
+	<set xpath="//quest[@id='quest_tier5complete']/reward[@type='Item' and @id='casinoCoin']/@value">800</set>
+	<set xpath="//quest[@id='quest_tier6complete']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='quest_tier1complete']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='quest_tier2complete']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='quest_tier3complete']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='quest_tier4complete']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='quest_tier5complete']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='quest_tier6complete']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Fetch -->
+	<set xpath="//quest[@id='tier1_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">150</set>
+	<set xpath="//quest[@id='tier2_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='tier3_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">400</set>
+	<set xpath="//quest[@id='tier4_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">600</set>
+	<set xpath="//quest[@id='tier5_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">800</set>
+	<set xpath="//quest[@id='tier6_fetch']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='tier1_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier2_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier4_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier5_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier6_fetch']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Fetch Clear -->
+	<set xpath="//quest[@id='tier2_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">200</set>
+	<set xpath="//quest[@id='tier3_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">400</set>
+	<set xpath="//quest[@id='tier4_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">600</set>
+	<set xpath="//quest[@id='tier5_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">800</set>
+	<set xpath="//quest[@id='tier6_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='tier2_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier4_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier5_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier6_fetch_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Clear -->
+	<set xpath="//quest[@id='tier1_clear']/reward[@type='Item' and @id='casinoCoin']/@value">150</set>
+	<set xpath="//quest[@id='tier2_clear']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='tier3_clear']/reward[@type='Item' and @id='casinoCoin']/@value">400</set>
+	<set xpath="//quest[@id='tier4_clear']/reward[@type='Item' and @id='casinoCoin']/@value">600</set>
+	<set xpath="//quest[@id='tier5_clear']/reward[@type='Item' and @id='casinoCoin']/@value">800</set>
+	<set xpath="//quest[@id='tier6_clear']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='tier1_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier2_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier4_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier5_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier6_clear']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Clear Infested -->
+	<set xpath="//quest[@id='tier2_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">200</set>
+	<set xpath="//quest[@id='tier3_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">400</set>
+	<set xpath="//quest[@id='tier4_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">600</set>
+	<set xpath="//quest[@id='tier5_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">800</set>
+	<set xpath="//quest[@id='tier6_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='tier2_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier4_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier5_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier6_clear_infested']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Buried Supplies -->
+	<set xpath="//quest[@id='tier1_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='tier2_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@value">500</set>
+	<set xpath="//quest[@id='tier3_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@value">750</set>
+	<set xpath="//quest[@id='tier1_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier2_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_buried_supplies']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Restore Power -->
+	<set xpath="//quest[@id='tier2_restore_power']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='tier3_restore_power']/reward[@type='Item' and @id='casinoCoin']/@value">1500</set>
+	<set xpath="//quest[@id='tier4_restore_power']/reward[@type='Item' and @id='casinoCoin']/@value">2000</set>
+	<set xpath="//quest[@id='tier2_restore_power']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_restore_power']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier4_restore_power']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+
+	<!-- Test Turnin -->
+	<set xpath="//quest[@id='tier1_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">150</set>
+	<set xpath="//quest[@id='tier2_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">250</set>
+	<set xpath="//quest[@id='tier3_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">400</set>
+	<set xpath="//quest[@id='tier4_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">600</set>
+	<set xpath="//quest[@id='tier5_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">800</set>
+	<set xpath="//quest[@id='tier6_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@value">1000</set>
+	<set xpath="//quest[@id='tier1_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier2_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier3_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier4_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier5_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+	<set xpath="//quest[@id='tier6_test_turnin']/reward[@type='Item' and @id='casinoCoin']/@id">mjItemDollars</set>
+</DIABLOxMJ>

@@ -1,0 +1,107 @@
+<DIABLOxMJ>
+	<!-- AddContainer -->
+	<append xpath="//lootcontainer[@name='atmLoot']">
+		<item name="mjItemDollars" count="250,1000"/>
+	</append>
+	<append xpath="//lootcontainer[@name='cashRegister']">
+		<item name="mjItemDollars" count="25,75"/>
+	</append>
+
+	<!-- AddGroup -->
+	<append xpath="//lootgroup[@name='groupAirDrop']">
+		<item name="mjItemMoneyCase" loot_prob_template="low" force_prob="true"/>
+		<item name="mjItemDollarsSchematics" loot_prob_template="veryLowDelayed" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupScrapCommon']">
+		<item name="mjItemDollars" count="0,5"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupPurse']">
+		<item name="mjItemDollars" count="5,15"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupLuggage']">
+		<item name="mjItemWallet" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupCraftingCommon']">
+		<item name="mjItemDollars" count="0,10"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupShamwayShelves']">
+		<item name="mjItemDollars" count="0,10"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupShamwaySafe']">
+		<item name="mjItemDollars" count="0,10"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupShamwayProduce']">
+		<item name="mjItemDollars" count="0,10"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupBackpacks']">
+		<item name="mjItemDollars" count="0,15"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupDesks']">
+		<item name="mjItemDollars" count="0,10"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupLocker']">
+		<item name="mjItemDollars" count="0,10"/>
+		<item name="mjItemWallet" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupArmorParts']">
+		<item name="mjItemDollars" count="0,10"/>
+		<item name="mjItemWallet" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupCloset']">
+		<item name="mjItemDollars" count="0,10"/>
+		<item name="mjItemWallet" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupSmallSafeLoot']">
+		<item name="mjItemDollars" count="25,75"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupHardenedChestT4']">
+		<item name="mjItemDollars" count="75,150"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupHardenedChestT5']">
+		<item name="mjItemDollars" count="100,250"/>
+		<item name="mjItemMoneyCase" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupHiddenStash']">
+		<item name="mjItemDollars" count="45,95"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupBuriedTreasure']">
+		<item name="mjItemMoneyCase" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackReg']">
+		<item name="mjItemDollars" count="1,15"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackNurse']">
+		<item name="mjItemDollars" count="1,20"/>
+		<item name="mjItemWallet" loot_prob_template="moreLow" force_prob="true"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackLab']">
+		<item name="mjItemDollars" count="1,10"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackUtility']">
+		<item name="mjItemDollars" count="1,15"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackSoldier']">
+		<item name="mjItemDollars" count="1,75"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackThug']">
+		<item name="mjItemDollars" count="10,100"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackStrong']">
+		<item name="mjItemDollars" count="50,100"/>
+	</append>
+	<append xpath="//lootgroup[@name='groupZpackBoss']">
+		<item name="mjItemDollars" count="100,250"/>
+	</append>
+
+	<!-- Reward -->
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT1']/item[@name='casinoCoin']/@count">1000</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT2']/item[@name='casinoCoin']/@count">2000</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT3']/item[@name='casinoCoin']/@count">3000</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT4']/item[@name='casinoCoin']/@count">4000</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT5']/item[@name='casinoCoin']/@count">5000</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT1']/item[@name='casinoCoin']/@name">mjItemDollars</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT2']/item[@name='casinoCoin']/@name">mjItemDollars</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT3']/item[@name='casinoCoin']/@name">mjItemDollars</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT4']/item[@name='casinoCoin']/@name">mjItemDollars</set>
+	<set xpath="//lootgroup[@name='groupQuestcasinoCoinT5']/item[@name='casinoCoin']/@name">mjItemDollars</set>
+</DIABLOxMJ>
