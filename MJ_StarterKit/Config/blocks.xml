@@ -1,0 +1,532 @@
+<DIABLOxMJ>
+	<append xpath="/blocks">
+		<!-- Starter Kit Basic -->
+		<block name="mjBlockSKBasicLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKBasicLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKBasic"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKBasic">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKBasicLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKBasicDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKBasic"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Assassin -->
+		<block name="mjBlockSKAssassinLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKAssassinLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKAssassin"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKAssassin">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKAssassinLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKAssassinDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKAssassin"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Athletic -->
+		<block name="mjBlockSKAthleticLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKAthleticLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKAthletic"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKAthletic">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKAthleticLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKAthleticDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKAthletic"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Biker -->
+		<block name="mjBlockSKBikerLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKBikerLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKBiker"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKBiker">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKBikerLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKBikerDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKBiker"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Commando -->
+		<block name="mjBlockSKCommandoLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKCommandoLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKCommando"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKCommando">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKCommandoLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKCommandoDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKCommando"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Warlord -->
+		<block name="mjBlockSKWarlordLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKWarlordLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKWarlord"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKWarlord">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKWarlordLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKWarlordDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKWarlord"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Desert -->
+		<block name="mjBlockSKDesertLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKDesertLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKDesert"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKDesert">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKDesertLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKDesertDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKDesert"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Enforcer -->
+		<block name="mjBlockSKEnforcerLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKEnforcerLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKEnforcer"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKEnforcer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKEnforcerLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKEnforcerDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKEnforcer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Farmer -->
+		<block name="mjBlockSKFarmerLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKFarmerLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKFarmer"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKFarmer">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKFarmerLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKFarmerDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKFarmer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Hoarder -->
+		<block name="mjBlockSKHoarderLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKHoarderLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKHoarder"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKHoarder">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKHoarderLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKHoarderDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKHoarder"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit LumberJack -->
+		<block name="mjBlockSKLumberJackLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKLumberJackLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKLumberJack"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKLumberJack">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKLumberJackLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKLumberJackDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKLumberJack"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Marauder -->
+		<block name="mjBlockSKMarauderLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKMarauderLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKMarauder"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKMarauder">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKMarauderLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKMarauderDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKMarauder"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Miner -->
+		<block name="mjBlockSKMinerLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKMinerLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKMiner"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKMiner">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKMinerLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKMinerDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKMiner"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Nerd -->
+		<block name="mjBlockSKNerdLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKNerdLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKNerd"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKNerd">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKNerdLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKNerdDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKNerd"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Nomad -->
+		<block name="mjBlockSKNomadLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKNomadLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKNomad"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKNomad">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKNomadLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKNomadDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKNomad"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Preacher -->
+		<block name="mjBlockSKPreacherLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKPreacherLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKPreacher"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKPreacher">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKPreacherLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKPreacherDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKPreacher"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Primitive -->
+		<block name="mjBlockSKPrimitiveLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKPrimitiveLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKPrimitive"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKPrimitive">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKPrimitiveLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKPrimitiveDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKPrimitive"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Raider -->
+		<block name="mjBlockSKRaiderLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKRaiderLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKRaider"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKRaider">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKRaiderLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKRaiderDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKRaider"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Ranger -->
+		<block name="mjBlockSKRangerLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKRangerLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKRanger"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKRanger">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKRangerLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKRangerDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKRanger"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Rogue -->
+		<block name="mjBlockSKRogueLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKRogueLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKRogue"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKRogue">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKRogueLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKRogueDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKRogue"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Samurai -->
+		<block name="mjBlockSKSamuraiLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKSamuraiLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKSamurai"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKSamurai">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKSamuraiLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKSamuraiDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKSamurai"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<!-- Starter Kit Scavenger -->
+		<block name="mjBlockSKScavengerLocked">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="cntDuffle01"/>
+			<property name="DescriptionKey" value="mjBlockSKScavengerLockedDesc"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="LightOpacity" value="0"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/duffle01Prefab.prefab"/>
+			<property name="ModelOffset" value="0,0,0"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DowngradeBlock" value="mjBlockSKScavenger"/>
+			<property name="Place" value="TowardsPlacer"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+		<block name="mjBlockSKScavenger">
+			<property name="CreativeMode" value="None"/>
+			<property name="Extends" value="mjBlockSKScavengerLocked" param1="DowngradeBlock" />
+			<property name="DescriptionKey" value="mjBlockSKScavengerDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="mjBlockSKScavenger"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+	</append>
+</DIABLOxMJ>

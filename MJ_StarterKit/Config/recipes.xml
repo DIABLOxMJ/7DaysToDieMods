@@ -1,0 +1,70 @@
+<DIABLOxMJ>
+	<append xpath="/recipes">
+		<recipe name="mjItemSKBasic" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKAssassin" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKAthletic" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKBiker" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKCommando" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKWarlord" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<!--recipe name="mjItemSKDesert" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe-->
+		<recipe name="mjItemSKEnforcer" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKFarmer" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKHoarder" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKLumberJack" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<!--recipe name="mjItemSKMarauder" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe-->
+		<recipe name="mjItemSKMiner" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKNerd" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKNomad" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKPreacher" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKPrimitive" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKRaider" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKRanger" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<recipe name="mjItemSKRogue" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+		<!--recipe name="mjItemSKSamurai" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe-->
+		<recipe name="mjItemSKScavenger" count="1" craft_exp_gain="0" tags="starterKit">
+			<ingredient name="mjItemSKSelector" count="1"/>
+		</recipe>
+	</append>
+</DIABLOxMJ>

@@ -1,6 +1,5 @@
 <DIABLOxMJ>
 	<append xpath="/blocks">
-		<!-- Start -->
 		<block name="mjItemStarterPackLocked">
 			<property name="CustomIcon" value="cntDuffle01"/>
 			<property name="DescriptionKey" value="mjItemStarterPackLockedDesc"/>
@@ -22,6 +21,5 @@
 			<property name="LootList" value="mjItemStarterPack"/>
 			<drop event="Destroy" count="0"/>
 		</block>
-		<!-- Finish -->
 	</append>
 </DIABLOxMJ>

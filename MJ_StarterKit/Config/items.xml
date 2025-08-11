@@ -1,0 +1,593 @@
+
+<DIABLOxMJ>
+	<append xpath="/items">
+		<item name="disassembleStarterKitBundle">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="ItemTypeIcon" value="computer"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="DescriptionKey" value=""/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+			</property>
+		</item>
+		<!-- Starter Kit Selector -->
+		<item name="mjItemSKSelector">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKSelector"/>
+			<property name="DescriptionKey" value="mjItemSKSelectorDesc"/>
+		</item>
+		<!-- Starter Kit Basic -->
+		<item name="mjItemSKBasic">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKBasic"/>
+			<property name="DescriptionKey" value="mjItemSKBasicDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKBasicLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Assassin -->
+		<item name="mjItemSKAssassin">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKAssassin"/>
+			<property name="DescriptionKey" value="mjItemSKAssassinDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKAssassinLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Athletic -->
+		<item name="mjItemSKAthletic">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKAthletic"/>
+			<property name="DescriptionKey" value="mjItemSKAthleticDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKAthleticLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Biker -->
+		<item name="mjItemSKBiker">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKBiker"/>
+			<property name="DescriptionKey" value="mjItemSKBikerDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKBikerLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Commando -->
+		<item name="mjItemSKCommando">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKCommando"/>
+			<property name="DescriptionKey" value="mjItemSKCommandoDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKCommandoLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Warlord -->
+		<item name="mjItemSKWarlord">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKWarlord"/>
+			<property name="DescriptionKey" value="mjItemSKWarlordDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKWarlordLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Desert -->
+		<item name="mjItemSKDesert">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKDesert"/>
+			<property name="DescriptionKey" value="mjItemSKDesertDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKDesertLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Enforcer -->
+		<item name="mjItemSKEnforcer">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKEnforcer"/>
+			<property name="DescriptionKey" value="mjItemSKEnforcerDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKEnforcerLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Farmer -->
+		<item name="mjItemSKFarmer">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKFarmer"/>
+			<property name="DescriptionKey" value="mjItemSKFarmerDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKFarmerLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Hoarder -->
+		<item name="mjItemSKHoarder">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKHoarder"/>
+			<property name="DescriptionKey" value="mjItemSKHoarderDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKHoarderLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit LumberJack -->
+		<item name="mjItemSKLumberJack">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKLumberJack"/>
+			<property name="DescriptionKey" value="mjItemSKLumberJackDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKLumberJackLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Marauder -->
+		<item name="mjItemSKMarauder">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKMarauder"/>
+			<property name="DescriptionKey" value="mjItemSKMarauderDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKMarauderLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Miner -->
+		<item name="mjItemSKMiner">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKMiner"/>
+			<property name="DescriptionKey" value="mjItemSKMinerDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKMinerLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Nerd -->
+		<item name="mjItemSKNerd">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKNerd"/>
+			<property name="DescriptionKey" value="mjItemSKNerdDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKNerdLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Nomad -->
+		<item name="mjItemSKNomad">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKNomad"/>
+			<property name="DescriptionKey" value="mjItemSKNomadDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKNomadLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Preacher -->
+		<item name="mjItemSKPreacher">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKPreacher"/>
+			<property name="DescriptionKey" value="mjItemSKPreacherDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKPreacherLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Primitive -->
+		<item name="mjItemSKPrimitive">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKPrimitive"/>
+			<property name="DescriptionKey" value="mjItemSKPrimitiveDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKPrimitiveLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Raider -->
+		<item name="mjItemSKRaider">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKRaider"/>
+			<property name="DescriptionKey" value="mjItemSKRaiderDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKRaiderLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Ranger -->
+		<item name="mjItemSKRanger">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKRanger"/>
+			<property name="DescriptionKey" value="mjItemSKRangerDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKRangerLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Rogue -->
+		<item name="mjItemSKRogue">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKRogue"/>
+			<property name="DescriptionKey" value="mjItemSKRogueDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKRogueLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Samurai -->
+		<item name="mjItemSKSamurai">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKSamurai"/>
+			<property name="DescriptionKey" value="mjItemSKSamuraiDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKSamuraiLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+		<!-- Starter Kit Scavenger -->
+		<item name="mjItemSKScavenger">
+			<property name="Tags" value="starterKit"/>
+			<property name="Group" value="Special Items"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Extends" value="disassembleStarterKitBundle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CraftingIngredientTime" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="SoundPickup" value="oldcash_grab"/>
+			<property name="SoundPlace" value="oldcash_place"/>
+			<property name="CustomIcon" value="mjItemSKScavenger"/>
+			<property name="DescriptionKey" value="mjItemSKScavengerDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="mjBlockSKScavengerLocked"/>
+				<property name="Create_item_count" value="1"/>
+			</property>
+		</item>
+	</append>
+</DIABLOxMJ>

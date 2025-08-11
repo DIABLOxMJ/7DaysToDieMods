@@ -1,6 +1,5 @@
 <DIABLOxMJ>
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='weaponParts']">
-		<!-- Start -->
 		<lootgroup name="mjStarterPack" count="all">
 			<!-- Resource -->
 			<item name="resourceRockSmall" count="150,250"/>
@@ -40,7 +39,6 @@
 			<!-- Admin Tools -->
 			<item name="meleeToolPaintToolAdmin" count="1"/>
 		</lootgroup>
-		<!-- Finish -->
 	</insertAfter>
 	<insertAfter xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT5']">
 		<lootcontainer name="mjItemStarterPack" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="questT3QualTemplate">
