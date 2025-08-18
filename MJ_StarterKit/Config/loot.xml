@@ -50,14 +50,14 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorAssassinHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorAssassinOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorAssassinGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorAssassinBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorAssassinHelmet" count="1"/>
+			<item name="armorAssassinOutfit" count="1"/>
+			<item name="armorAssassinGloves" count="1"/>
+			<item name="armorAssassinBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -81,14 +81,14 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnClubT1BaseballBat" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorAthleticHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorAthleticOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorAthleticGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorAthleticBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorAthleticHelmet" count="1"/>
+			<item name="armorAthleticOutfit" count="1"/>
+			<item name="armorAthleticGloves" count="1"/>
+			<item name="armorAthleticBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -114,22 +114,21 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT3DesertVulture" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunShotgunT1DoubleBarrel" count="1"/>
 			<!-- Ammo -->
-			<item name="ammo44MagnumBulletBall" count="125,175"/>
+			<item name="ammoShotgunShell" count="100,150"/>
 			<item name="ammoGasCan" count="1500,3500"/>
 			<!-- Armor -->
-			<item name="armorBikerHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorBikerOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorBikerGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorBikerBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorBikerHelmet" count="1"/>
+			<item name="armorBikerOutfit" count="1"/>
+			<item name="armorBikerGloves" count="1"/>
+			<item name="armorBikerBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
 			<!-- Food -->
 			<item name="foodSteakAndPotato" count="7,10"/>
-			<item name="foodMeatStew" count="2,6"/>
 			<!-- Drink -->
 			<item name="drinkJarPureMineralWater" count="7,10"/>
 			<item name="drinkJarCoffee" count="1,10"/>
@@ -148,16 +147,16 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="gunMGT2TacticalAR" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
+			<item name="gunMGT2TacticalAR" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<item name="ammo762mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorCommandoHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorCommandoOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorCommandoGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorCommandoBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorCommandoHelmet" count="1"/>
+			<item name="armorCommandoOutfit" count="1"/>
+			<item name="armorCommandoGloves" count="1"/>
+			<item name="armorCommandoBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -171,69 +170,21 @@
 			<!-- Cash -->
 			<item name="casinoCoin" count="25,75"/>
 		</lootgroup>
-		<!-- Starter Kit Warlord -->
+		<!-- Starter Kit Warlord DISABLE/DLC -->
 		<lootgroup name="mjSKWarlord" count="all">
-			<!-- Resource -->
-			<item name="resourceRockSmall" count="150,250"/>
-			<item name="resourceWood" count="250,500"/>
-			<item name="resourceYuccaFibers" count="250,500"/>
-			<item name="resourceRepairKit" count="5,15"/>
-			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
-			<!-- Weapon -->
-			<item name="gunHandgunT2Magnum44" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Ammo -->
-			<item name="ammo44MagnumBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorCrimsonWarlordHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorCrimsonWarlordOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorCrimsonWarlordGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorCrimsonWarlordBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Mod -->
-			<item name="modArmorHelmetLight" count="1"/>
-			<!-- Medic -->
-			<item name="medicalFirstAidBandage" count="4,5"/>
-			<!-- Food -->
-			<item name="foodSteakAndPotato" count="7,10"/>
-			<item name="foodMeatStew" count="2,6"/>
-			<!-- Drink -->
-			<item name="drinkJarPureMineralWater" count="7,10"/>
-			<item name="drinkJarCoffee" count="1,10"/>
-			<!-- Cash -->
-			<item name="casinoCoin" count="25,75"/>
-			<!-- Vehicle -->
-			<item name="vehicleBicyclePlaceable" count="1"/>
+			<item name="armorCrimsonWarlordHelmet" count="1"/>
+			<item name="armorCrimsonWarlordOutfit" count="1"/>
+			<item name="armorCrimsonWarlordGloves" count="1"/>
+			<item name="armorCrimsonWarlordBoots" count="1"/>
 		</lootgroup>
-		<!-- Starter Kit Desert -->
+		<!-- Starter Kit Desert DISABLE/DLC -->
 		<lootgroup name="mjSKDesert" count="all">
-			<!-- Resource -->
-			<item name="resourceRockSmall" count="150,250"/>
-			<item name="resourceWood" count="250,500"/>
-			<item name="resourceYuccaFibers" count="250,500"/>
-			<item name="resourceRepairKit" count="5,15"/>
-			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
-			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Ammo -->
-			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorDesertHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorDesertOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorDesertGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorDesertBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Mod -->
-			<item name="modArmorHelmetLight" count="1"/>
-			<!-- Medic -->
-			<item name="medicalFirstAidBandage" count="4,5"/>
-			<!-- Food -->
-			<item name="foodSteakAndPotato" count="7,10"/>
-			<item name="foodMeatStew" count="2,6"/>
-			<!-- Drink -->
-			<item name="drinkJarPureMineralWater" count="7,10"/>
-			<item name="drinkJarCoffee" count="1,10"/>
-			<!-- Cash -->
-			<item name="casinoCoin" count="25,75"/>
+			<item name="armorDesertHelmet" count="1"/>
+			<item name="armorDesertOutfit" count="1"/>
+			<item name="armorDesertGloves" count="1"/>
+			<item name="armorDesertBoots" count="1"/>
 		</lootgroup>
 		<!-- Starter Kit Enforcer -->
 		<lootgroup name="mjSKEnforcer" count="all">
@@ -245,14 +196,14 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorEnforcerHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorEnforcerOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorEnforcerGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorEnforcerBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorEnforcerHelmet" count="1"/>
+			<item name="armorEnforcerOutfit" count="1"/>
+			<item name="armorEnforcerGloves" count="1"/>
+			<item name="armorEnforcerBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<item name="modGunSoundSuppressorSilencer" count="1"/>
@@ -266,8 +217,6 @@
 			<item name="drinkJarCoffee" count="1,10"/>
 			<!-- Cash -->
 			<item name="casinoCoin" count="25,75"/>
-			<!-- Vehicle -->
-			<item name="vehicleBicyclePlaceable" count="1"/>
 		</lootgroup>
 		<!-- Starter Kit Farmer -->
 		<lootgroup name="mjSKFarmer" count="all">
@@ -280,14 +229,14 @@
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<item name="meleeToolFlashlight02" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunBowT3CompoundCrossbow" count="1"/>
 			<!-- Ammo -->
-			<item name="ammo9mmBulletBall" count="125,175"/>
+			<item name="ammoCrossbowBoltIron" count="100,150"/>
 			<!-- Armor -->
-			<item name="armorFarmerHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorFarmerOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorFarmerGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorFarmerBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorFarmerHelmet" count="1"/>
+			<item name="armorFarmerOutfit" count="1"/>
+			<item name="armorFarmerGloves" count="1"/>
+			<item name="armorFarmerBoots" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
 			<!-- Food -->
@@ -299,36 +248,13 @@
 			<!-- Cash -->
 			<item name="casinoCoin" count="25,75"/>
 		</lootgroup>
-		<!-- Starter Kit Hoarder -->
+		<!-- Starter Kit Hoarder DISABLE/DLC -->
 		<lootgroup name="mjSKHoarder" count="all">
-			<!-- Resource -->
-			<item name="resourceRockSmall" count="150,250"/>
-			<item name="resourceWood" count="250,500"/>
-			<item name="resourceYuccaFibers" count="250,500"/>
-			<item name="resourceRepairKit" count="5,15"/>
-			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1CandyKnife" count="1"/>
-			<!-- Weapon -->
-			<item name="gunHandgunT0PipePistol" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Ammo -->
-			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorHoarderHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorHoarderOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorHoarderGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorHoarderBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Mod -->
-			<item name="modArmorHelmetLight" count="1"/>
-			<!-- Medic -->
-			<item name="medicalFirstAidBandage" count="4,5"/>
-			<!-- Food -->
-			<item name="foodSteakAndPotato" count="7,10"/>
-			<item name="foodMeatStew" count="2,6"/>
-			<!-- Drink -->
-			<item name="drinkJarPureMineralWater" count="7,10"/>
-			<item name="drinkJarCoffee" count="1,10"/>
-			<!-- Cash -->
-			<item name="casinoCoin" count="25,75"/>
+			<item name="armorHoarderHelmet" count="1"/>
+			<item name="armorHoarderOutfit" count="1"/>
+			<item name="armorHoarderGloves" count="1"/>
+			<item name="armorHoarderBoots" count="1"/>
 		</lootgroup>
 		<!-- Starter Kit LumberJack -->
 		<lootgroup name="mjSKLumberJack" count="all">
@@ -341,16 +267,17 @@
 			<item name="meleeToolAxeT1IronFireaxe" count="1"/>
 			<item name="meleeToolAxeT3Chainsaw" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunRifleT1HuntingRifle" count="1"/>
 			<!-- Ammo -->
-			<item name="ammo9mmBulletBall" count="125,175"/>
+			<item name="ammo762mmBulletBall" count="100,150"/>
 			<!-- Armor -->
-			<item name="armorLumberjackHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorLumberjackOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorLumberjackGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorLumberjackBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorLumberjackHelmet" count="1"/>
+			<item name="armorLumberjackOutfit" count="1"/>
+			<item name="armorLumberjackGloves" count="1"/>
+			<item name="armorLumberjackBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
+			<item name="modGunScopeMedium" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
 			<!-- Food -->
@@ -362,36 +289,13 @@
 			<!-- Cash -->
 			<item name="casinoCoin" count="25,75"/>
 		</lootgroup>
-		<!-- Starter Kit Marauder -->
+		<!-- Starter Kit Marauder DISABLE/DLC -->
 		<lootgroup name="mjSKMarauder" count="all">
-			<!-- Resource -->
-			<item name="resourceRockSmall" count="150,250"/>
-			<item name="resourceWood" count="250,500"/>
-			<item name="resourceYuccaFibers" count="250,500"/>
-			<item name="resourceRepairKit" count="5,15"/>
-			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT3Machete" count="1"/>
-			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Ammo -->
-			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorMarauderHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorMarauderOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorMarauderGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorMarauderBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Mod -->
-			<item name="modArmorHelmetLight" count="1"/>
-			<!-- Medic -->
-			<item name="medicalFirstAidBandage" count="4,5"/>
-			<!-- Food -->
-			<item name="foodSteakAndPotato" count="7,10"/>
-			<item name="foodMeatStew" count="2,6"/>
-			<!-- Drink -->
-			<item name="drinkJarPureMineralWater" count="7,10"/>
-			<item name="drinkJarCoffee" count="1,10"/>
-			<!-- Cash -->
-			<item name="casinoCoin" count="25,75"/>
+			<item name="armorMarauderHelmet" count="1"/>
+			<item name="armorMarauderOutfit" count="1"/>
+			<item name="armorMarauderGloves" count="1"/>
+			<item name="armorMarauderBoots" count="1"/>
 		</lootgroup>
 		<!-- Starter Kit Miner -->
 		<lootgroup name="mjSKMiner" count="all">
@@ -404,15 +308,15 @@
 			<item name="meleeToolPickT2SteelPickaxe" count="1"/>
 			<item name="meleeToolPickT3Auger" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<item name="ammoGasCan" count="1500,3500"/>
 			<!-- Armor -->
-			<item name="armorMinerHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorMinerOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorMinerGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorMinerBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorMinerHelmet" count="1"/>
+			<item name="armorMinerOutfit" count="1"/>
+			<item name="armorMinerGloves" count="1"/>
+			<item name="armorMinerBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -436,10 +340,10 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBatonT2StunBaton" count="1"/>
 			<!-- Armor -->
-			<item name="armorNerdHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorNerdOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorNerdGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorNerdBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorNerdHelmet" count="1"/>
+			<item name="armorNerdOutfit" count="1"/>
+			<item name="armorNerdGloves" count="1"/>
+			<item name="armorNerdBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -463,21 +367,20 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT3SMG5" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT3SMG5" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorNomadHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorNomadOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorNomadGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorNomadBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorNomadHelmet" count="1"/>
+			<item name="armorNomadOutfit" count="1"/>
+			<item name="armorNomadGloves" count="1"/>
+			<item name="armorNomadBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
 			<!-- Food -->
-			<item name="foodSteakAndPotato" count="7,10"/>
-			<item name="foodMeatStew" count="2,6"/>
+			<item name="foodChiliDog" count="7,10"/>
 			<!-- Drink -->
 			<item name="drinkJarPureMineralWater" count="7,10"/>
 			<item name="drinkJarCoffee" count="1,10"/>
@@ -489,10 +392,10 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Armor -->
-			<item name="armorPreacherHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorPreacherOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorPreacherGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorPreacherBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorPreacherHelmet" count="1"/>
+			<item name="armorPreacherOutfit" count="1"/>
+			<item name="armorPreacherGloves" count="1"/>
+			<item name="armorPreacherBoots" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="1,3"/>
 			<!-- Food -->
@@ -506,14 +409,14 @@
 			<item name="meleeWpnBladeT0BoneKnife" count="1"/>
 			<item name="meleeToolTorch" count="1"/>
 			<!-- Weapon -->
-			<item name="gunBowT0PrimitiveBow" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunBowT0PrimitiveBow" count="1"/>
 			<!-- Ammo -->
 			<item name="ammoArrowStone" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorPrimitiveHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorPrimitiveOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorPrimitiveGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorPrimitiveBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorPrimitiveHelmet" count="1"/>
+			<item name="armorPrimitiveOutfit" count="1"/>
+			<item name="armorPrimitiveGloves" count="1"/>
+			<item name="armorPrimitiveBoots" count="1"/>
 			<!-- Food -->
 			<item name="foodRawMeat" count="2,5"/>
 			<!-- Drink -->
@@ -529,14 +432,14 @@
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<item name="meleeToolFlashlight02" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT0PipePistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT0PipePistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="45,95"/>
 			<!-- Armor -->
-			<item name="armorRaiderHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRaiderOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRaiderGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRaiderBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorRaiderHelmet" count="1"/>
+			<item name="armorRaiderOutfit" count="1"/>
+			<item name="armorRaiderGloves" count="1"/>
+			<item name="armorRaiderBoots" count="1"/>
 			<!-- Medic -->
 			<item name="medicalBandage" count="4,5"/>
 			<!-- Food -->
@@ -554,14 +457,14 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT2Magnum44" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT2Magnum44" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo44MagnumBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorRangerHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRangerOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRangerGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRangerBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorRangerHelmet" count="1"/>
+			<item name="armorRangerOutfit" count="1"/>
+			<item name="armorRangerGloves" count="1"/>
+			<item name="armorRangerBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -586,14 +489,14 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorRogueHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRogueOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRogueGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorRogueBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorRogueHelmet" count="1"/>
+			<item name="armorRogueOutfit" count="1"/>
+			<item name="armorRogueGloves" count="1"/>
+			<item name="armorRogueBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -609,28 +512,13 @@
 			<!-- Vehicle -->
 			<item name="vehicleBicyclePlaceable" count="1"/>
 		</lootgroup>
-		<!-- Starter Kit Samurai -->
+		<!-- Starter Kit Samurai DISABLE/DLC -->
 		<lootgroup name="mjSKSamurai" count="all">
-			<!-- Resource -->
-			<item name="resourceRockSmall" count="150,250"/>
-			<item name="resourceWood" count="250,500"/>
-			<item name="resourceYuccaFibers" count="250,500"/>
-			<item name="resourceRepairKit" count="5,15"/>
-			<!-- Melee Weapon -->
-			<item name="meleeWpnSpearT1IronSpear" count="1"/>
 			<!-- Armor -->
-			<item name="armorSamuraiHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorSamuraiOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorSamuraiGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorSamuraiBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<!-- Medic -->
-			<item name="medicalFirstAidBandage" count="4,5"/>
-			<!-- Food -->
-			<item name="foodCanSalmon" count="7,10"/>
-			<!-- Drink -->
-			<item name="drinkJarPureMineralWater" count="7,10"/>
-			<!-- Cash -->
-			<item name="casinoCoin" count="25,75"/>
+			<item name="armorSamuraiHelmet" count="1"/>
+			<item name="armorSamuraiOutfit" count="1"/>
+			<item name="armorSamuraiGloves" count="1"/>
+			<item name="armorSamuraiBoots" count="1"/>
 		</lootgroup>
 		<!-- Starter Kit Scavenger -->
 		<lootgroup name="mjSKScavenger" count="all">
@@ -642,14 +530,14 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
 			<item name="ammo9mmBulletBall" count="125,175"/>
 			<!-- Armor -->
-			<item name="armorScavengerHelmet" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorScavengerOutfit" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorScavengerGloves" count="1" loot_quality_template="qualTwitchT3Template"/>
-			<item name="armorScavengerBoots" count="1" loot_quality_template="qualTwitchT3Template"/>
+			<item name="armorScavengerHelmet" count="1"/>
+			<item name="armorScavengerOutfit" count="1"/>
+			<item name="armorScavengerGloves" count="1"/>
+			<item name="armorScavengerBoots" count="1"/>
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
@@ -666,71 +554,71 @@
 			<item name="vehicleBicyclePlaceable" count="1"/>
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT3']">
-		<lootcontainer name="mjBlockSKBasic" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+	<insertAfter xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT1']">
+		<lootcontainer name="mjBlockSKBasic" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKBasic"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKAssassin" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKAssassin" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKAssassin"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKAthletic" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKAthletic" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKAthletic"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKBiker" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKBiker" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKBiker"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKCommando" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKCommando" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKCommando"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKWarlord" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKWarlord" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKWarlord"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKDesert" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKDesert" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKDesert"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKEnforcer" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKEnforcer" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKEnforcer"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKFarmer" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKFarmer" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKFarmer"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKHoarder" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKHoarder" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKHoarder"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKLumberJack" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKLumberJack" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKLumberJack"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKMarauder" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKMarauder" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKMarauder"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKMiner" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKMiner" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKMiner"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKNerd" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKNerd" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKNerd"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKNomad" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKNomad" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKNomad"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKPreacher" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKPreacher" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKPreacher"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKPrimitive" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKPrimitive" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKPrimitive"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKRaider" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKRaider" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKRaider"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKRanger" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKRanger" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKRanger"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKRogue" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKRogue" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKRogue"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKSamurai" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKSamurai" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKSamurai"/>
 		</lootcontainer>
-		<lootcontainer name="mjBlockSKScavenger" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT3QualTemplate">
+		<lootcontainer name="mjBlockSKScavenger" count="1" size="9,5" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.2" loot_quality_template="questT1QualTemplate">
 			<item group="mjSKScavenger"/>
 		</lootcontainer>
 	</insertAfter>

@@ -15,9 +15,9 @@
 		<recipe name="mjItemSKCommando" count="1" craft_exp_gain="0" tags="starterKit">
 			<ingredient name="mjItemSKSelector" count="1"/>
 		</recipe>
-		<recipe name="mjItemSKWarlord" count="1" craft_exp_gain="0" tags="starterKit">
+		<!--recipe name="mjItemSKWarlord" count="1" craft_exp_gain="0" tags="starterKit">
 			<ingredient name="mjItemSKSelector" count="1"/>
-		</recipe>
+		</recipe-->
 		<!--recipe name="mjItemSKDesert" count="1" craft_exp_gain="0" tags="starterKit">
 			<ingredient name="mjItemSKSelector" count="1"/>
 		</recipe-->
@@ -27,9 +27,9 @@
 		<recipe name="mjItemSKFarmer" count="1" craft_exp_gain="0" tags="starterKit">
 			<ingredient name="mjItemSKSelector" count="1"/>
 		</recipe>
-		<recipe name="mjItemSKHoarder" count="1" craft_exp_gain="0" tags="starterKit">
+		<!--recipe name="mjItemSKHoarder" count="1" craft_exp_gain="0" tags="starterKit">
 			<ingredient name="mjItemSKSelector" count="1"/>
-		</recipe>
+		</recipe-->
 		<recipe name="mjItemSKLumberJack" count="1" craft_exp_gain="0" tags="starterKit">
 			<ingredient name="mjItemSKSelector" count="1"/>
 		</recipe>
