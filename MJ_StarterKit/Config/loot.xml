@@ -59,7 +59,8 @@
 			<item name="armorAssassinGloves" count="1"/>
 			<item name="armorAssassinBoots" count="1"/>
 			<!-- Mod -->
-			<item name="modArmorHelmetLight" count="1"/>
+			<item name="modArmorNightVision" count="1"/>
+			<item name="modGunSoundSuppressorSilencer" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
 			<!-- Food -->

@@ -576,6 +576,7 @@
 		<item name="modArmorImpactBracing">,"",""</item>
 		<item name="modArmorWaterPurifier">,"",""</item>
 		<item name="modArmorHelmetLight">1,"Helmet Light Mod","Modification de lampe de casque"</item>
+		<item name="modArmorNightVision">1,"Night Vision Mod","Modification de vision nocturne"</item>
 		<item name="modVehicleFuelSaver">,"",""</item>
 		<item name="modVehicleOffRoadHeadlights">,"",""</item>
 		<item name="modVehicleSuperCharger">,"",""</item>
