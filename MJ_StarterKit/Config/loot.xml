@@ -59,7 +59,7 @@
 			<item name="armorAssassinGloves" count="1"/>
 			<item name="armorAssassinBoots" count="1"/>
 			<!-- Mod -->
-			<item name="modArmorNightVision" count="1"/>
+			<item name="modArmorNightVision" count="1"/> <!-- "modArmorHelmetLight" Present before in the 1.0.0 -->
 			<item name="modGunSoundSuppressorSilencer" count="1"/>
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
@@ -113,7 +113,7 @@
 			<item name="resourceYuccaFibers" count="250,500"/>
 			<item name="resourceRepairKit" count="5,15"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+			<item name="meleeWpnBladeT1HuntingKnife" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<!-- Weapon -->
 			<item name="gunShotgunT1DoubleBarrel" count="1"/>
 			<!-- Ammo -->
@@ -136,7 +136,7 @@
 			<!-- Cash -->
 			<item name="casinoCoin" count="25,75"/>
 			<!-- Vehicle -->
-			<item name="vehicleMotorcyclePlaceable" count="1"/>
+			<item name="vehicleMinibikePlaceable" count="1"/> <!-- "vehicleMotorcyclePlaceable" Present before in the 1.0.1 -->
 		</lootgroup>
 		<!-- Starter Kit Commando -->
 		<lootgroup name="mjSKCommando" count="all">
@@ -159,7 +159,7 @@
 			<item name="armorCommandoGloves" count="1"/>
 			<item name="armorCommandoBoots" count="1"/>
 			<!-- Mod -->
-			<item name="modArmorHelmetLight" count="1"/>
+			<item name="modArmorNightVision" count="1"/> <!-- "modArmorHelmetLight" Present before in the 1.0.1 -->
 			<!-- Medic -->
 			<item name="medicalFirstAidBandage" count="4,5"/>
 			<!-- Food -->
@@ -195,7 +195,7 @@
 			<item name="resourceYuccaFibers" count="250,500"/>
 			<item name="resourceRepairKit" count="5,15"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+			<item name="meleeWpnBatonT2StunBaton" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<!-- Weapon -->
 			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
@@ -227,7 +227,7 @@
 			<item name="resourceYuccaFibers" count="250,500"/>
 			<item name="resourceRepairKit" count="5,15"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+			<item name="meleeWpnSpearT1IronSpear" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<item name="meleeToolFlashlight02" count="1"/>
 			<!-- Weapon -->
 			<item name="gunBowT3CompoundCrossbow" count="1"/>
@@ -348,7 +348,7 @@
 			<!-- Mod -->
 			<item name="modArmorHelmetLight" count="1"/>
 			<!-- Medic -->
-			<item name="medicalBandage" count="4,5"/>
+			<item name="medicalFirstAidBandage" count="4,5"/> <!-- "medicalBandage" Present before in the 1.0.1 -->
 			<!-- Food -->
 			<item name="foodSteakAndPotato" count="7,10"/>
 			<!-- Drink -->
@@ -366,7 +366,7 @@
 			<item name="resourceYuccaFibers" count="250,500"/>
 			<item name="resourceRepairKit" count="5,15"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+			<item name="meleeWpnSpearT1IronSpear" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<!-- Weapon -->
 			<item name="gunHandgunT3SMG5" count="1"/>
 			<!-- Ammo -->
@@ -430,7 +430,7 @@
 			<item name="resourceWood" count="250,500"/>
 			<item name="resourceYuccaFibers" count="250,500"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+			<item name="meleeWpnKnucklesT1IronKnuckles" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<item name="meleeToolFlashlight02" count="1"/>
 			<!-- Weapon -->
 			<item name="gunHandgunT0PipePistol" count="1"/>
@@ -488,7 +488,7 @@
 			<item name="resourceRepairKit" count="5,15"/>
 			<item name="resourceLockPick" count="5,15"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/>
+			<item name="meleeWpnClubT1BaseballBat" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<!-- Weapon -->
 			<item name="gunHandgunT1Pistol" count="1"/>
 			<!-- Ammo -->
