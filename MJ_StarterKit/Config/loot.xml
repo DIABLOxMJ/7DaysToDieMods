@@ -113,7 +113,7 @@
 			<item name="resourceYuccaFibers" count="250,500"/>
 			<item name="resourceRepairKit" count="5,15"/>
 			<!-- Melee Weapon -->
-			<item name="meleeWpnBladeT1HuntingKnife" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
+			<item name="meleeWpnKnucklesT1IronKnuckles" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<!-- Weapon -->
 			<item name="gunShotgunT1DoubleBarrel" count="1"/>
 			<!-- Ammo -->
@@ -490,9 +490,9 @@
 			<!-- Melee Weapon -->
 			<item name="meleeWpnClubT1BaseballBat" count="1"/> <!-- "meleeWpnBladeT1HuntingKnife" Present before in the 1.0.1 -->
 			<!-- Weapon -->
-			<item name="gunHandgunT1Pistol" count="1"/>
+			<item name="gunHandgunT3DesertVulture" count="1"/> <!-- "gunHandgunT1Pistol" Present before in the 1.0.1 -->
 			<!-- Ammo -->
-			<item name="ammo9mmBulletBall" count="125,175"/>
+			<item name="ammo44MagnumBulletBall" count="125,175"/> <!-- "ammo9mmBulletBall" Present before in the 1.0.1 -->
 			<!-- Armor -->
 			<item name="armorRogueHelmet" count="1"/>
 			<item name="armorRogueOutfit" count="1"/>
